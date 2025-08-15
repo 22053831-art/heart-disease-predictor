@@ -15,3 +15,17 @@ This project uses a *Logistic Regression model* trained on the heart_disease_dat
 ---
 
 ## 📂 Project Structure
+├── app.py # Gradio web app for predictions
+├── finalheartdiseasepredictor.py # Model training script
+├── heart_disease_data.csv # Dataset
+├── HeartDiseasePredictor.pkl # Trained model file
+└── README.md # Project documentation
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/heart-disease-predictor.git
+cd heart-disease-predictor
