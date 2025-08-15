@@ -1,20 +1,17 @@
-# heart-disease-predictor
-Heart Disease Predictor
-A machine learning project that predicts the likelihood of heart disease based on medical attributes. Built using Python, trained on a public dataset, and ready for real-time predictions.
 
-Dataset
-This project uses the UCI Heart Disease dataset containing patient data like cholesterol, blood pressure, chest pain type, and more.
+# Heart Disease Predictor
 
-Features
-Exploratory Data Analysis (EDA)
-Feature selection and preprocessing
-ML Models: Logistic Regression, Random Forest, SVM
-Model evaluation (accuracy, confusion matrix)
-Optionally deployable as a Streamlit or Flask app
-Results
-The following models were trained and evaluated on the dataset:
+A machine learning-based web application to predict the likelihood of heart disease based on patient medical data.  
+This project uses a *Logistic Regression model* trained on the heart_disease_data.csv dataset and is deployed with *Gradio* for an interactive UI.
 
-Logistic Regression: Achieved an accuracy of 85.3%
-Random Forest Classifier: Achieved an accuracy of 87.4%
-Support Vector Machine (SVM): Achieved an accuracy of 86.1%
-Confusion matrices and classification reports for each model are included in the Jupyter notebook.
+---
+
+## 📌 Features
+- Predicts if a patient has heart disease or not.
+- Simple web interface built with *Gradio*.
+- Model trained using *scikit-learn* Logistic Regression.
+- Supports input for common heart disease risk factors.
+
+---
+
+## 📂 Project Structure
