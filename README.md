@@ -23,9 +23,20 @@ This project uses a *Logistic Regression model* trained on the heart_disease_dat
 
 ---
 
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/heart-disease-predictor.git
 cd heart-disease-predictor
+
+pip install -r requirements.txt
+gradio
+pandas
+numpy
+scikit-learn
+joblib
+
+python finalheartdiseasepredictor.py
+python app.py
